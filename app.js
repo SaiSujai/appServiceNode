@@ -8,7 +8,7 @@ app.use(express.json());
 
 app.get('/', (req, res) => {
   console.log('Sucess..!')
-  res.json({ message: 'Hello, From Application Hosted on App Services, This is version 2' })
+  res.json({ message: 'Hello, From Application Hosted on App Services, This is version 3' })
 });
 
 
